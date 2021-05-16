@@ -90,7 +90,8 @@ body{
 }
 
 .not-account{
-    color: rgb(160, 160, 160)    
+    color: rgb(160, 160, 160);
+    margin-top: 0.3rem;
 }
 
 .link-blue{
@@ -126,6 +127,10 @@ body{
 
 .app-download:nth-child(2){
     background-image: url('./img/googleplay-button-br.png');
+}
+
+.link-blue:hover{
+    cursor: pointer;    
 }
 
 /* Media queries */

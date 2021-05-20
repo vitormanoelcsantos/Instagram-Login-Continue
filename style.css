@@ -133,29 +133,16 @@ body{
     cursor: pointer;    
 }
 
-/* Media queries */
+/* Media Queries */
 
-@media screen and (max-width: 768px) {
-    .instagram-wrapper{
-        width: 90%;
-    }
-    
-}
-
-@media screen and (min-width: 1024px) {
-    .instagram-wrapper{
-        width: 90%;
-    }
-}    
-    
-
-@media screen and (max-width: 414px){
+@media screen and (max-width: 767px){
     body{
-        background-color: #ffffff;
+        background-color: #ffffff;        
     }
 
     .instagram-wrapper{
-        width: 90%;
+        width: 90%;     
+        height: 50%;
     }
 
     .instagram-phone{
@@ -171,3 +158,32 @@ body{
     }
 
 }
+
+@media screen and (min-width: 768px) {
+    .instagram-wrapper{
+        width: 90%;         
+        height: 50%;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }  
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .instagram-wrapper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;     
+        height: 50%;
+    }
+
+    .instagram-continue{
+        width: 40%;
+        margin-left: -10.0rem;
+    }
+
+}
+

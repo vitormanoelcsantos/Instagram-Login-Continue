@@ -1,6 +1,6 @@
 # Instagram-Login-Continue
 
-The application can be accessed through the link: [Instagram login continue](https://vitormanoelcsantos.github.io/Snake-Game/)
+The application can be accessed through the link: [Instagram login continue](https://vitormanoelcsantos.github.io/Instagram-Login-Continue/)
 
 #
 
